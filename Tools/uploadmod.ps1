@@ -31,3 +31,4 @@ $Run.Write($FileContent, 0, $FileContent.Length)
 #$Run.Write($FileContent, 0, $FileContent.Length)
 $Run.Close()
 $Run.Dispose()
+exit
